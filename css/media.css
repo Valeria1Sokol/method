@@ -87,73 +87,18 @@
         max-width: 100%;
     }
 
-    header img {
-        width: 100px;
-    }
-
-    .menu a {
-
-        font-size: 14px;
-    }
-
-    .menu li {
-        margin: 0 8px;
-    }
-          .mobile
-    {
-        display: flex;
-    }
-    .desctop
-    {
-        display: none;
-    }
-    body input ~ nav > ul > li > a {
-    
-    padding: 5px 0;
-    font-size: 22px;
-}
-    body input:checked ~ nav {
-    height: 370px;
-}
-    header img
-    {
-        width: 120px;
-    }
-     .headerIngredient h2 {
-        font-size: 2.7em;
-        margin: 0.25em 6vw;
-        color: #666;
-    }
-    a
-    {
-        text-decoration: none;
-        cursor: pointer;
-        margin: 0px 0 14px;
-    }
+   
      .headerIngredient img {
         max-width: 100%;
         height: 140px;
     }
+  
 
 
 }
 
 @media all and (max-width:425px) {
-    .desctop
-    {
-        display: none;
-    
-    }
-    .mobile
-    {
-        display: flex;
-    }
-    a {
-        text-decoration: none;
-        cursor: pointer;
-        margin: 0px 0 14px;
-    }
-
+   
     .baner {
         background-size: cover;
         min-height: 160px !important;

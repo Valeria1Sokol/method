@@ -22,11 +22,7 @@
     .container {
         max-width: 984px;
     }
-    header img
-    {
-        width: 120px;
-       margin: 0 0px 0 10px;
-    }
+
 
 }
 
@@ -46,27 +42,10 @@
     .img {
         margin-left: 0;
     }
-          .mobile
+     .moreOpen a
     {
-        display: flex;
+        margin: 0;
     }
-    .desctop
-    {
-        display: none;
-    }
-    body input ~ nav > ul > li > a {
-    
-    padding: 5px 0;
-    font-size: 22px;
-}
-    body input:checked ~ nav {
-    height: 370px;
-}
-    header img
-    {
-        width: 120px;
-    }
- 
 }
 
 @media all and (max-width:425px) {

@@ -24,11 +24,6 @@
     .col5 {
     width: 171px;
 }
-    header img
-    {
-        width: 120px;
-        margin: 0 0px 0 10px;
-    }
 }
 
 @media all and (max-width:768px) {
@@ -63,30 +58,8 @@
     .col5 {
     width: 123px;
 }
-    .logo
-    {
-        position: relative;
-        z-index: 4;
-    }
-    .mobile
-    {
-        display: flex;
-    }
-    .desctop
-    {
-        display: none;
-    }
-    body input ~ nav > ul > li > a {
-    
-    padding: 5px 0;
-    font-size: 22px;
-}
-    body input:checked ~ nav {
-    height: 370px;
-}
-    header img
-    {
-        width: 120px;
+     .moreOpen a {
+        margin: 0;
     }
 }
 

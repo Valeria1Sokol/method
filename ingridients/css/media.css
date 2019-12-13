@@ -31,11 +31,6 @@
         width: 984px;
     }
  
-    header img
-    {
-        width: 120px;
-        margin: 0 0px 0 10px;
-    }
 }
 
 @media all and (max-width:768px) {
@@ -56,26 +51,11 @@
     .img {
         margin-left: 0;
     }
-          .mobile
+      .moreOpen a
     {
-        display: flex;
+        margin: 0;
     }
-    .desctop
-    {
-        display: none;
-    }
-    body input ~ nav > ul > li > a {
-    
-    padding: 5px 0;
-    font-size: 22px;
-}
-    body input:checked ~ nav {
-    height: 370px;
-}
-    header img
-    {
-        width: 120px;
-    }
+     
  
 }
 
@@ -84,11 +64,6 @@
         background-size: cover;
         min-height: 160px !important;
     }
-/*
-    .slideUpDown {
-        width: 579px;
-    }
-*/
     .container {
         max-width: 579px;
     }
